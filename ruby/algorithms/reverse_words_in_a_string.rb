@@ -15,7 +15,7 @@
 
 
 def reverseWords(s)
-    wordsReversed = s.split(" ").reverse.join(" ")
+  s.split(" ").reverse.join(" ")
 end 
 
 print reverseWords("the sky is blue")
